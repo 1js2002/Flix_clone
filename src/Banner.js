@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from 'react'
 import axios from './axios';
 import './Banner.css'
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 import requests from './Requests';
 
